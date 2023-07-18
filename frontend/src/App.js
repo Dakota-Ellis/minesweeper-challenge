@@ -1,12 +1,12 @@
 import React from 'react'
-import Grid from './Grid';
+import Board from './Components/Board';
 import './App.css';
 
 function App() {
 
 return (
   <div className="app">
-    <Grid />
+    <Board />
   </div>
 )
 
