@@ -1,0 +1,29 @@
+.grid {
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   margin: 0 auto;
+   margin-top: 199px;
+   max-width: 399px;
+   border: 5px black;
+   background-color: gray;
+   padding: 30px;
+}
+
+.button {
+    border: 1px solid rgb(189, 187, 187);
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+} 
+
+.button:hover {
+    background-color: black;
+    opacity: 1;
+}
