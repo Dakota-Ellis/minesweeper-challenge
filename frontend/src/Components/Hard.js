@@ -16,7 +16,7 @@ function Board() {
 
     useEffect(() => {
     function freshBoard() {
-        const newBoard = CreateBoard(10, 10, 20);
+        const newBoard = CreateBoard(20, 20, 40);
         setNonMinecount(10 * 10 - 20);
         setMineLocation(newBoard.mineLocation);
         setGrid(newBoard.board);
